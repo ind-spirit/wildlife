@@ -1,0 +1,183 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#header_bg {
+    width: 100%;
+    min-height: 780px;
+    background: url(./assets/images/header.jpg) no-repeat;
+    background-size: cover;
+    background-color: #02160b;
+    margin: 0;
+    padding-top: 0;
+}
+#header_wrapper {
+    padding-top: 19px;
+    margin-left: 120px;
+    margin-right: 121px;
+    height: 780px;
+}
+#header_container {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    color: #F7F7F7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .header_nav {
+    position: fixed;
+}
+#wildlife_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#header_name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    margin: 0;
+    padding-left: 15px;
+    
+}
+.header_list {
+    width: 480px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header_link {
+    text-decoration: none;
+    color: #F7F7F7;
+}
+#sign_in {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+/* survival */
+
+.survival {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    color: #F7F7F7;
+    height: 500px;
+}
+
+h1 {
+    color: #CD6326;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    margin-top: 120px;
+    width: 199px;
+    height: 72px;
+    
+}
+
+.survival_article {
+    margin-top: 51px;
+    width: 274px;
+    height: 108px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    
+}
+
+.donate_button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: #CD6326;
+    margin-top: 49px;
+    width: 160px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Latest article */
+
+#la_bg {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
+}
+#la_wrapper {
+    margin-left: 120px;
+    margin-right: 120px;
+    color: #333333;
+
+    
+}
+
+.la_headding {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+}
+
+.news {
+    margin: auto;
+    margin-top: 20px;
+    width: 350px;
+    height: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #666666;
+    text-align: center;
+}
